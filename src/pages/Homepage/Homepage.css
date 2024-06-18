@@ -79,12 +79,40 @@
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
     padding: 1rem 0;
+    position: relative;
   }
   
   .latest-posts-container::-webkit-scrollbar {
     display: none;
   }
   
+  .carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: #666;
+    background-color: whitesmoke;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 1;
+    padding: .065rem;
+  }
+  
+  .carousel-arrow.left {
+    left: 0.5rem;
+  }
+  
+  .carousel-arrow.right {
+    right: 0.5rem;
+  }
+
+  .carousel-arrow.left:hover,
+  .carousel-arrow.right:hover {
+    background-color: #666;
+    color: whitesmoke;
+  }
+
   
   /* featured item CSS */
   .latest-post-item {

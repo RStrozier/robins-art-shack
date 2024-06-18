@@ -1,3 +1,4 @@
+// import { Link } from 'react-router-dom';
 import './Footer.css'
 
 const Footer = () => {
@@ -33,6 +34,13 @@ const Footer = () => {
   
         <div className="footer-copyright">
           <p>&copy; Robin's Art Shack. All rights reserved.</p>
+          <p>Website was designed by Rashida Strozier
+            <br />
+            {/* TODO: NAVLINK TO MY WEBSITE */}
+            {/* <Link to="wwww.rashidastrozier.com"> */}
+            <span className="rashida-link">view Rashida's website</span>
+            {/* </Link> */}
+          </p>
         </div>
       </footer>
     );
