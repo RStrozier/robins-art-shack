@@ -1,4 +1,59 @@
 #root {
-  margin: 0 auto;
   text-align: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
+
+.homepage {
+  background-color: rgba(240, 232, 222, 0.781);
+}
+
+
+.under-construction-text {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.access-btn {
+  padding: .35rem;
+  background-color: rgb(119, 99, 207);
+  border: 2px solid rgb(159, 159, 224);
+  color: white;
+  width: 40%;
+}
+
+.access-btn:hover {
+  background-color: rgb(81, 52, 209);
+}
+
+.btn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.submit-access-btn,
+.password-input {
+  padding: .3rem;
+}
+
+.access-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh; 
+  background-color: rgba(224, 221, 216, 0.582);
+  margin: 1rem;
+  border: 2px double rgba(224, 221, 216, 0.966);;
 }

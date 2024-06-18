@@ -1,4 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import TestPage from '../pages/TestPage';
+import AccessPage from '../pages/AccessPage';
 import Homepage from '../pages/Homepage';
 
 const AppRouter = () => {
@@ -6,7 +8,9 @@ const AppRouter = () => {
     <Router>
       <div>
         <Routes>
-          <Route path="/" Component={Homepage} />
+          <Route path="/" Component={AccessPage} />
+          <Route path="/access-granted" Component={Homepage} />
+          <Route path="/robins-decisions" Component={TestPage} />
         </Routes>
       </div>
     </Router>
