@@ -33,6 +33,7 @@ const AccessPage = () => {
 
   return (
     <>
+    <div className="section">
     <UnderConstruction />
       <button 
       className='access-btn btn'
@@ -59,6 +60,7 @@ const AccessPage = () => {
           </Link>
         </form>
       </Modal>
+    </div>
     </>
   );
 };
