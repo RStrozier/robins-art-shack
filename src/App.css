@@ -22,3 +22,13 @@
 .header-text {
   font-size: 2.33rem;
 }
+
+.medium-container {
+  max-width: 72.5%;
+  margin: 0 auto;  /* Center the container horizontally */
+}
+
+.large-container {
+  max-width: 90%;
+  margin: 0 auto;  /* Center the container horizontally */
+}

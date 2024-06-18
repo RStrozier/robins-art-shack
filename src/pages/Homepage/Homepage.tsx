@@ -1,24 +1,24 @@
-import { Link } from "react-router-dom";
-import './Homepage.css'
+// import { Link } from "react-router-dom";
+import "./Homepage.css";
+import HomepageBuckets from "../../components/HomepageSections/HomepageBuckets";
+import NavBar from "../../components/NavBar/NavBar";
+import FeaturedItems from "../../components/HomepageSections/FeaturedItems";
+import LatestPosts from "../../components/HomepageSections/LatestPosts";
+import AboutRobin from "../../components/HomepageSections/AboutRobin";
+import VibeTags from "../../components/HomepageSections/VibeTags";
+import Footer from "../../components/footer/Footer";
 
 const Homepage = () => {
   return (
     <>
       <div className="homepage">
-        <div className="div">Homepage</div>
-
-          <div className="homepage-navbar">
-            <div className="div">Robin's Art Shack</div>
-            <Link to="/robins-decisions">
-              <p>Click Here To Make Decisions</p>
-            </Link>
-          </div>
-
-          <div className="homepage-buckets">
-            <div className="bucket">Paintings</div>
-            <div className="bucket">Record Art</div>
-            <div className="bucket">Drawings</div>
-          </div>
+        <NavBar />
+        <HomepageBuckets />
+        <FeaturedItems />
+        <LatestPosts />
+        <AboutRobin />
+        <VibeTags />
+        <Footer />
       </div>
     </>
   );
