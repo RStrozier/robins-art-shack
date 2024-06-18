@@ -19,7 +19,7 @@ const VibeTags = () => {
           <div
             key={index}
             className="home-vibe-tag poppins-regular"
-            style={{ backgroundColor: tag.color, color: "white", border: "outset" }}
+            style={{ backgroundColor: tag.color, color: "white", border: "whitesmoke outset" }}
           >
             {tag.name}
           </div>

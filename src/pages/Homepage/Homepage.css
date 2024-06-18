@@ -201,6 +201,7 @@
   .home-vibe-tag:hover {
     cursor: pointer;
     font-weight: bolder;
+    font-size: 1.1rem;
   }
 
   /* robins favorite container */
