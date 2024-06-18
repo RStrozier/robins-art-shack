@@ -80,7 +80,7 @@
     overflow-x: auto;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
-    padding: 1rem 0;
+    padding: .25rem 0;
     position: relative;
   }
   
@@ -185,16 +185,21 @@
 
   /* homepage vibe tags */
   .vibe-tags-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    /* this is how we can get it to be responsive */
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
     padding: 1rem 0;
+    justify-content: center;
   }
   
   .home-vibe-tag {
+    /* must have a height and width for responsive screensize */
+    width: calc(20% - 5px);
+    height: 1rem;
     background-color: #d6dfc1;
     padding: 1rem;
-    border-radius: 8px;
+    border-radius: 5px;
     margin: 0 .6rem;
   }
 
