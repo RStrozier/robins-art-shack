@@ -1,8 +1,41 @@
+/* general homepage css */
 .homepage {
-    background-color: rgba(240, 232, 222, 0.781); 
+    background-image: url(../../assets/imgs/homepage-background.jpg);
+    background-size: cover;
     padding-bottom: .5rem;
   }
-  
+
+  .homepage-text {
+    font-size: 1.4rem;
+    text-align: start;
+    margin-top: .75rem;
+    margin-left: .5rem;
+  }
+
+
+  /* intro css */
+.homepage-introduction {
+  text-align: start;
+  margin-top: 1rem;
+  margin-bottom: .28rem;
+}
+
+.artist-intro-name {
+  font-size: 1.65rem;
+  margin-top: .3rem;
+}
+
+.intro-pronouns-container {
+  display: flex;
+}
+
+.artist-intro-pronouns {
+  margin-right: 3px;
+  margin-left: 2px;
+}
+
+
+  /* buckets css */
   .homepage-buckets {
     display: flex;
     justify-content: center;
@@ -19,29 +52,27 @@
     margin: 0 10px; /* Add some spacing between buckets */
     background-color: whitesmoke;
   }
-  
-  .homepage-text {
-    font-size: 1.4rem;
-    text-align: start;
-    margin-top: .75rem;
-    margin-left: .5rem;
-  }
 
+  
+/* featured  bucket css */
   .featured-items-container {
     font-size: 1.25rem;
   }
 
   .featured-bucket-item {
     width: auto;
-    height: 58vh;
+    height: 34rem;
     border: 1px solid black;
-    margin: 5px 12px; /* Add some spacing between buckets */
+    margin: 5px 22px; /* Add some spacing between buckets */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: whitesmoke;
+    opacity: .88;
   }
 
+
+  /* latest posts css */
   .latest-posts-container {
     display: flex;
     overflow-x: auto;
@@ -54,6 +85,7 @@
     display: none;
   }
   
+  
   /* featured item CSS */
   .latest-post-item {
     flex-shrink: 0;
@@ -62,8 +94,11 @@
     background-color: #f5f5f5;
     padding: 1rem;
     border-radius: 8px;
+    opacity: .93;
   }
-  
+
+
+  /* latest posts CSS */
   .latest-post-item img {
     width: 100%;
     height: 200px;
@@ -78,6 +113,7 @@
   .vibe-tag {
     margin-top: 0.5rem;
     color: #666;
+    opacity: .875;
   }
   
   .author-container {
@@ -98,11 +134,15 @@
     font-size: 0.875rem;
   }
 
+
   /* about robin */
   .about-robin-section {
-    border: 3px solid black;
-    margin: .15rem;
+    border: 2px solid black;
+    margin: .052rem;
     padding: .45rem;
+    height: 7rem;
+    background-color: whitesmoke;
+    opacity: .875;
   }
 
   .about-robin-title {
@@ -111,6 +151,7 @@
     /* TODO: adding a border so I can remember how to style this */
     border: 1px solid black;
   }
+
 
   /* homepage vibe tags */
   .vibe-tags-container {

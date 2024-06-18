@@ -7,12 +7,14 @@ import LatestPosts from "../../components/HomepageSections/LatestPosts";
 import AboutRobin from "../../components/HomepageSections/AboutRobin";
 import VibeTags from "../../components/HomepageSections/VibeTags";
 import Footer from "../../components/footer/Footer";
+import HomepageIntro from "../../components/HomepageSections/HomepageIntro";
 
 const Homepage = () => {
   return (
     <>
       <div className="homepage">
         <NavBar />
+        <HomepageIntro />
         <HomepageBuckets />
         <FeaturedItems />
         <LatestPosts />
