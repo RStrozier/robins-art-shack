@@ -1,5 +1,6 @@
-import robin1 from '../assets/imgs/robins-art-shack-logo-2.png';
-import robin2 from '../assets/imgs/robins-art-shack-logo.png';
+import robin1 from '../../assets/imgs/robins-art-shack-logo-2.png';
+import robin2 from '../../assets/imgs/robins-art-shack-logo.png';
+import './TestPage.css'
 
 const TestPage = () => {
   return (

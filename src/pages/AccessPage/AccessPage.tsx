@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import Modal from 'react-modal';
 import { Link } from 'react-router-dom';
-import UnderConstruction from '../components/UnderConstruction';
+import UnderConstruction from '../../components/UnderConstruction';
+import './AccessPage.css'
 
 const AccessPage = () => {
   Modal.setAppElement('#root');

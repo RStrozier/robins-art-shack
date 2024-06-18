@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import TestPage from '../pages/TestPage';
-import AccessPage from '../pages/AccessPage';
-import Homepage from '../pages/Homepage';
+import TestPage from '../pages/TestPage/TestPage.tsx';
+import AccessPage from '../pages/AccessPage/AccessPage.tsx';
+import Homepage from '../pages/Homepage/Homepage.tsx';
 
 const AppRouter = () => {
   return (
