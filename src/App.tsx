@@ -1,4 +1,5 @@
 import './App.css'
+import './assets/fonts.css'
 import Layout from './components/Layout'
 import AppRouter from './router/AppRouter'
 

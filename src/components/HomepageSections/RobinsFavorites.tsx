@@ -5,7 +5,7 @@ const RobinsFavorites = () => {
     <>
       <div className="medium-container">
         <div className="robin-title-container">
-          <div className="homepage-text">Robin's Favorites!</div>
+          <div className="homepage-text poppins-semibold">Robin's Favorites!</div>
           <div className="emoji-container">
             <HiEmojiHappy size={25} />
           </div>

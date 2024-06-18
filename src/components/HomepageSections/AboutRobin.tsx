@@ -3,7 +3,7 @@ const AboutRobin = () => {
     <>
       <div className="about-robin-container medium-container">
         {/* TODO: ALL OF THIS STYLING */}
-        <div className="homepage-text">About the Artist</div>
+        <div className="homepage-text poppins-semibold">About the Artist</div>
         <div className="about-robin-section">
         <div className="about-image-section">
           <img alt="about-robin-image"></img>

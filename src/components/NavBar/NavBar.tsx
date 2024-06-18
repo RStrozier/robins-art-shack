@@ -8,10 +8,10 @@ const NavBar = () => {
       <div className="homepage-navbar">
         {/* CANT USE SINCE ITS PASSWORD PROTECTED */}
         {/* <NavLink to="/"> */}
-        <div className="homepage-word-logo">Robin's Art Shack</div>
+        <div className="homepage-word-logo poppins-bold">Robin's Art Shack</div>
         {/* </NavLink> */}
         <div className="icon-container">
-          <RiAlignJustify size={32} />
+          <RiAlignJustify size={34} />
         </div>
       </div>
     </>

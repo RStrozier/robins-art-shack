@@ -4,7 +4,7 @@ const LatestPosts = () => {
   return (
     <>
     <div className="large-container">
-    <div className="homepage-text">Latest Posts:</div>
+    <div className="homepage-text poppins-medium">Latest Posts:</div>
     </div>
       <LatestPostsCarousel>
       <div className="large-container">

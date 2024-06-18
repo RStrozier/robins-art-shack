@@ -2,7 +2,7 @@ const FeaturedItems = () => {
   return (
     <>
       <div className="homepage-featured medium-container">
-        <div className="homepage-text">Featured</div>
+        <div className="homepage-text poppins-medium">Featured</div>
             <div className="featured-bucket-item">
             <div className="featured-items-container">
                 <img alt="image01"></img>
