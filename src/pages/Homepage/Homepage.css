@@ -140,7 +140,7 @@
     border: 2px solid black;
     margin: .052rem;
     padding: .45rem;
-    height: 7rem;
+    height: 6.25rem;
     background-color: whitesmoke;
     opacity: .875;
   }
@@ -171,4 +171,30 @@
   .home-vibe-tag:hover {
     cursor: pointer;
     font-weight: bolder;
+  }
+
+  /* robins favorite container */
+  .robins-favorites-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+  }
+
+  .robin-favorite-item {
+    width: 12rem;
+    height: 10rem;
+    border: 1px solid black;
+
+  }
+
+  .robin-title-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .emoji-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 4px;
   }

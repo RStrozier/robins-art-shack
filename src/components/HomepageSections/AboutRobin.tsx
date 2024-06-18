@@ -20,7 +20,7 @@ const AboutRobin = () => {
           <img alt="about-robin-image"></img>
           </div>
           <div className="about-wording-section">
-          <div className="about-robin-title">Exhibitions</div>
+          <div className="about-robin-title">Gallery</div>
           <div className="about-robin-description">
             Lorem ipsum dolor sit amet consectetur.
           </div>

@@ -1,9 +1,27 @@
 .homepage-word-logo {
     font-size: 2.1rem;
     text-align: start;
+    background-color: rgba(73, 71, 71, 0.295);
+    padding: .15rem 1rem;
   }
 
   .homepage-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border: .1rem solid rgb(170, 166, 160);
     margin: .12rem;
+    padding: .5rem;
+    background-image: url(../../assets/imgs/navbar-background.jpg);
+    background-size: cover;
+    /* idk what this is but I am gonna keep it until i figure out lol */
+    background-blend-mode: hard-light;
+    color: whitesmoke;
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(24, 23, 23, 0.384);
+    padding: .2rem .35rem;
   }
