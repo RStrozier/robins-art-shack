@@ -189,7 +189,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: .5rem;
-    padding: 1rem 0;
+    padding: .9rem 0;
     justify-content: center;
   }
   
@@ -198,7 +198,7 @@
     width: calc(20% - 5px);
     height: 1rem;
     background-color: #d6dfc1;
-    padding: 1rem;
+    padding: .9rem;
     border-radius: 5px;
     margin: 0 .6rem;
   }
@@ -206,7 +206,7 @@
   .home-vibe-tag:hover {
     cursor: pointer;
     font-weight: bolder;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   /* robins favorite container */
