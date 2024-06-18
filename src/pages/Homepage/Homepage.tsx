@@ -13,8 +13,10 @@ const Homepage = () => {
   return (
     <>
       <div className="homepage">
-        <Link to="/robins-decisions">
-          <p>Click Here To Make Decisions</p>
+        <Link 
+        className="poppins-semibold-italic"
+        to="/robins-decisions">
+          <div>Click Here To Make Decisions</div>
         </Link>
         <HomepageIntro />
         <HomepageBuckets />

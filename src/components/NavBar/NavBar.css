@@ -10,12 +10,9 @@
     justify-content: space-between;
     align-items: center;
     border: .1rem solid rgb(170, 166, 160);
-    margin: .12rem;
-    padding: .5rem;
+    padding: .25rem;
     background-image: url(../../assets/imgs/navbar-background.jpg);
     background-size: cover;
-    /* idk what this is but I am gonna keep it until i figure out lol */
-    background-blend-mode: hard-light;
     color: whitesmoke;
   }
   
