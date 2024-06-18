@@ -96,15 +96,15 @@
     cursor: pointer;
     border-radius: 50%;
     z-index: 1;
-    padding: .065rem;
+    padding: .045rem;
   }
   
   .carousel-arrow.left {
-    left: 0.5rem;
+    left: 0.45rem;
   }
   
   .carousel-arrow.right {
-    right: 0.5rem;
+    right: 0.45rem;
   }
 
   .carousel-arrow.left:hover,
@@ -225,4 +225,54 @@
     align-items: center;
     margin-top: 10px;
     margin-left: 4px;
+  }
+
+   /* contact form test */
+   .contact-robin-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    height: 15rem; /* Match the height of .contact-form-container */
+    position: relative;
+    border: inset;
+  }
+  
+  .contact-form-container {
+    background-image: url(../../assets/imgs/contact-robin-background.jpg);
+    background-size: cover;
+    height: 15rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-robin {
+    background-color: rgba(245, 245, 245, 0.384);
+    width: 50%;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .contact-robin input {
+    height: 32px;
+  }
+  
+  .contact-robin input,
+  .contact-robin button {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 1rem;
+  }
+
+  .contact-robin button {
+    background-color: rgb(35, 123, 196);
+    color: white;
+  }
+
+  .contact-robin button:hover {
+    cursor: pointer;
+    background-color: rgb(104, 181, 245);
+    color: white;
+    font-size: .88rem;
   }

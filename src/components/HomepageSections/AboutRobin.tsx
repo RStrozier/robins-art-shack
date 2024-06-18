@@ -1,7 +1,7 @@
 const AboutRobin = () => {
   return (
     <>
-      <div className="about-robin-container large-container">
+      <div className="about-robin-container medium-container">
         {/* TODO: ALL OF THIS STYLING */}
         <div className="homepage-text">About the Artist</div>
         <div className="about-robin-section">

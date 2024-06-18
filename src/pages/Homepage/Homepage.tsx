@@ -7,6 +7,7 @@ import VibeTags from "../../components/HomepageSections/VibeTags";
 import HomepageIntro from "../../components/HomepageSections/HomepageIntro";
 import RobinsFavorites from "../../components/HomepageSections/RobinsFavorites";
 import { Link } from "react-router-dom";
+import ContactRobin from "../../components/HomepageSections/ContactRobin";
 
 const Homepage = () => {
   return (
@@ -19,8 +20,9 @@ const Homepage = () => {
         <HomepageBuckets />
         <FeaturedItems />
         <LatestPosts />
-        <AboutRobin />
         <VibeTags />
+        <AboutRobin />
+        <ContactRobin />
         <RobinsFavorites />
       </div>
     </>

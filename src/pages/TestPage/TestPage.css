@@ -1,5 +1,9 @@
 .test-page {
-  margin-bottom: .45rem;
+  height: 80vh;
+}
+
+.header-text {
+  margin: 1rem;
 }
 
 .image-test-page {
@@ -13,18 +17,19 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   
   .image-grid-test img {
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
     object-fit: cover;
     cursor: pointer;
     transition: transform 0.3s;
-    margin-bottom: 2rem;
   }
   
   .image-grid-test img:hover {
     transform: scale(1.1);
   }
+
+ 
