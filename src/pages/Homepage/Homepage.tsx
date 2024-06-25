@@ -8,11 +8,15 @@ import HomepageIntro from "../../components/HomepageSections/HomepageIntro";
 import RobinsFavorites from "../../components/HomepageSections/RobinsFavorites";
 import { Link } from "react-router-dom";
 import ContactRobin from "../../components/HomepageSections/ContactRobin";
+import homepageBackground from '../../assets/imgs/homepage-background.jpg';
 
 const Homepage = () => {
   return (
     <>
-      <div className="homepage">
+      <div className="homepage"
+        style={{
+          backgroundImage: `url(${homepageBackground})`}}
+      >
         <Link 
         className="poppins-semibold-italic"
         to="/robins-decisions">

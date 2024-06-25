@@ -11,7 +11,6 @@
     align-items: center;
     border: .1rem solid rgb(170, 166, 160);
     padding: .25rem;
-    background-image: url(../../assets/imgs/navbar-background.jpg);
     background-size: cover;
     color: whitesmoke;
   }

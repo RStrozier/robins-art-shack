@@ -1,0 +1,16 @@
+[
+    {
+      "artName": "Beastie Boys Album Art",
+      "vibeTags": ["Record Art", "painting"],
+      "artImage": "../assets/images/BEASTIE-BOYS-ALBUM-ART.jpg",
+      "createdDate": "2022-09-15",
+      "featured": true
+    },
+    {
+      "artName": "Cyberpunk City Mural",
+      "vibeTags": ["Random"],
+      "artImage": "",
+      "createdDate": "2023-03-28",
+      "featured": false
+    }
+  ]
