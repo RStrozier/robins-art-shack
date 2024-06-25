@@ -1,4 +1,5 @@
 // import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Footer.css'
 
 const Footer = () => {
@@ -37,9 +38,9 @@ const Footer = () => {
           <p>Website was designed by Rashida Strozier
             <br />
             {/* TODO: NAVLINK TO MY WEBSITE */}
-            {/* <Link to="wwww.rashidastrozier.com"> */}
+            <Link to="wwww.rashidastrozier.com">
             <span className="rashida-link">view Rashida's website</span>
-            {/* </Link> */}
+            </Link>
           </p>
         </div>
       </footer>

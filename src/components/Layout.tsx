@@ -1,17 +1,12 @@
-import { ReactNode } from 'react';
 import NavBar from './NavBar/NavBar';
 import Footer from './footer/Footer';
+import { Outlet } from 'react-router-dom';
 
-
-interface LayoutProps {
-  children: ReactNode;
-}
-
-const Layout = ({ children }: LayoutProps) => {
+const Layout = () => {
   return (
     <div>
       <NavBar />
-      <main>{children}</main>
+      <Outlet />
       <Footer />
     </div>
   );
