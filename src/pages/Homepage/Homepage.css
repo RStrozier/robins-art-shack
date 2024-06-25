@@ -1,7 +1,6 @@
 
 /* general homepage css */
-.homepage {
-    
+.homepage {  
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -48,32 +47,43 @@
   .bucket {
     width: 15rem; 
     height: 10rem; 
-    border: 1px solid #ccc;
+    border: 3px outset #cccccce4;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: 0 10px; /* Add some spacing between buckets */
     background-color: whitesmoke;
+    background-size: cover;
   }
 
   
 /* featured  bucket css */
   .featured-items-container {
     font-size: 1.25rem;
+    width: 22rem;
+    height: 20rem;
+  }
+
+  .featured-title {
+    font-size: 1.5rem;
   }
 
   .featured-bucket-item {
-    width: auto;
+    width: 32rem;
     height: 34rem;
-    border: 1px solid black;
+    border: 2px double black;
     margin: 5px 22px; /* Add some spacing between buckets */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: whitesmoke;
+    background-color: rgb(152, 141, 115);
     opacity: .88;
   }
 
+  .featured-image {
+    width: 22rem;
+    height: 22rem;
+  }
 
   /* latest posts css */
   .latest-posts-container {

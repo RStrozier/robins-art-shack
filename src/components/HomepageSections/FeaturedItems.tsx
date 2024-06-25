@@ -1,8 +1,8 @@
 import artData from '../../data/robind-art.json';
+import beastieBoysArt from '../../assets/imgs/BEASTIE-BOYS-ALBUM-ART.jpg'
 
 const FeaturedItems = () => {
   const featuredItem = artData.find((item) => item.featured);
-  const featuredImage = featuredItem?.artImage
 
   console.log("Vibe Tag Names: " + featuredItem?.vibeTags);
 
@@ -17,12 +17,16 @@ const FeaturedItems = () => {
         <div className="homepage-text poppins-medium">Featured</div>
         <div className="featured-bucket-item">
           <div className="featured-items-container">
-            <img src={featuredImage} alt="{featuredImage}" />
+            <img src={beastieBoysArt} 
+            alt="featured Image missing" 
+            className="featured-image"/>
             <div className="featured-title">{featuredItem.artName}</div>
-          </div>
-          <div className="vibe-tag">
+        
+          <div className="vibe-tag"
+            style={{color: "white"}}>
               {featuredItem.vibeTags}
             </div>
+        </div>
         </div>
       </div>
     </>
